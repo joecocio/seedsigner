@@ -129,6 +129,8 @@ source /home/pi/.local/bin/virtualenvwrapper.sh
 ```
 Then `CTRL-X` and `y` to exit and save changes.
 
+Reboot Pi using sudo reboot.
+
 Now create the python virtualenv for SeedSigner:
 ```
 mkvirtualenv --python=python3 seedsigner-env
